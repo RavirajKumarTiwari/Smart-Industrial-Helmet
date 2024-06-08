@@ -48,21 +48,22 @@ This project is an IoT-based Smart Industrial Helmet designed to monitor environ
    - **LEDs**: Connect to Digital Pins 9, 10, 11 for temperature, data transmission, and gas alerts respectively.
 
 2. **Upload Code**:
-   - Open `ArduinoUnoCode.ino` in the Arduino IDE.
+   - Open the Arduino IDE.
+   - Load the `ArduinoUnoCode.ino` file.
    - Select the correct board and port.
    - Upload the code.
 
 ### NodeMCU ESP8266
 
 1. **WiFi Configuration**:
-   - Update the SSID and Password in the `NodeMCUCode.ino`.
+   - Open the `NodeMCUCode.ino` file.
+   - Update the SSID and Password for your WiFi network.
 
 2. **ThingSpeak Configuration**:
    - Update the `apiKey` with your ThingSpeak Write API Key.
 
 3. **Upload Code**:
-   - Open `NodeMCUCode.ino` in the Arduino IDE.
-   - Select the correct board (NodeMCU 1.0) and port.
+   - Select the correct board (NodeMCU 1.0) and port in the Arduino IDE.
    - Upload the code.
 
 ## Usage
@@ -77,6 +78,8 @@ This project is an IoT-based Smart Industrial Helmet designed to monitor environ
 - **Initial Testing**: Verified sensor readings and data transmission.
 - **Fall Detection**: Fine-tuned the MPU6050 threshold values for accurate fall detection.
 - **Real-Time Monitoring**: Successfully logged data to ThingSpeak and set up triggers for alerts.
+- **Improved Alert System**: Enhanced the LED and buzzer alerts based on feedback from initial tests.
+- **Sensor Calibration**: Adjusted sensor calibration for more accurate readings.
 
 ## Prototyping and Testing
 
